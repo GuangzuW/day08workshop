@@ -1,17 +1,27 @@
 package sg.edu.nus.iss;
 
-/**
- * Hello world!
- */
 public final class App {
     private App() {
     }
 
-    /**
-     * Says hello to the world.
-     * @param args The arguments of the program.
-     */
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+
+        ArraySortExample a= new ArraySortExample();
+        a.example1();
+        a.example2();
+
+        HashMapExample hm=new HashMapExample();
+        hm.example();
+
+        HashTableExample ht =new HashTableExample();
+        ht.example();
+
+        ConcurrentHashMapExample chm=new ConcurrentHashMapExample();
+        chm.example();
+
+        CollectionSortExample cs=new CollectionSortExample();
+        cs.example1();
+        cs.example2();
+
     }
 }
