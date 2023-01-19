@@ -6,22 +6,29 @@ public final class App {
 
     public static void main(String[] args) {
 
-        ArraySortExample a= new ArraySortExample();
-        a.example1();
-        a.example2();
+        // ArraySortExample a= new ArraySortExample();
+        // a.example1();
+        // a.example2();
 
-        HashMapExample hm=new HashMapExample();
-        hm.example();
+        // HashMapExample hm=new HashMapExample();
+        // hm.example();
 
-        HashTableExample ht =new HashTableExample();
-        ht.example();
+        // HashTableExample ht =new HashTableExample();
+        // ht.example();
 
-        ConcurrentHashMapExample chm=new ConcurrentHashMapExample();
-        chm.example();
+        // ConcurrentHashMapExample chm=new ConcurrentHashMapExample();
+        // chm.example();
 
-        CollectionSortExample cs=new CollectionSortExample();
-        cs.example1();
-        cs.example2();
+        // CollectionSortExample cs=new CollectionSortExample();
+        // cs.example1();
+        // cs.example2();
+
+
+        LinkListExample ll=new LinkListExample();
+        ll.example();
+
+        StackExample se=new StackExample();
+        se.example();
 
     }
 }

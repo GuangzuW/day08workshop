@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.stream.Collector;
+import java.util.stream.Collectors;
 
 public class CollectionSortExample {
 
@@ -49,6 +51,9 @@ public class CollectionSortExample {
         //sorting usinf Comparator and lambda
         employees.sort(Comparator.comparing(e->e.getSlaray()));
         System.out.println("emplyee after sorting(salary): "+ employees);
+
+
+        List<Employee> filterEmployees=employees.stream().filter(e->e.getFullName().equalsIgnoreCase("guangzu")).collect(Collectors.toList());
 
         
 
