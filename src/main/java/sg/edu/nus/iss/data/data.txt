@@ -1,0 +1,50 @@
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Welcome to iss tfip programFileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+FileWriter
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+Welcome to iss tfip program0 FileWriter
+1 FileWriter
+2 FileWriter
+3 FileWriter
+4 FileWriter
+5 FileWriter
+6 FileWriter
+7 FileWriter
+8 FileWriter
+9 FileWriter
